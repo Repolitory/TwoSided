@@ -1,0 +1,53 @@
+
+
+
+########Persons########
+
+|- persons
+    |- (randomID)
+        |- displayName: String
+        |- debateRooms
+            |- (debateRoomID): Int (timestamp for "last read" tracking)
+        |- profileImageID: String
+
+|- displayNames
+    |-(person's ID)
+
+########Debate Rooms########
+|- debateRooms
+    |- (randomID)
+        |- topic: String
+        |- createdTimestamp: Int
+        |- proSideTurn: Bool
+
+|- boards
+    |- (debateRoomID)
+        |- arguments
+            |- (randomID)
+                |- side: String
+                |- sender: (personID || anonID?)
+                |- body: String
+                |- voteCount: Int     (or would a vote percentage be better?)
+
+|- members
+    |- (debateRoomID)
+        |- conList
+            |- moderator: (personID)
+            |- (personID#1): Bool (unused)
+            |- (personID#2): Bool (unused)
+        |- proList
+            |- moderator: (personID)
+            |- (personID#3): Bool (unused)
+            |- (personID#4): Bool (unused)
+        |- undecided
+            |- (personID#3): Bool (unused)
+            |- (personID#4): Bool (unused)
+
+########Chat Rooms########
+|-chatRooms
+    |- (debateRoomID)
+        |- conChat
+            |- (randomID)
+                |- sender: (personID || anonID?)
+                |- body: String
+                |- timestamp: Int
