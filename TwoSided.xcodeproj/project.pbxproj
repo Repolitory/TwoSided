@@ -26,6 +26,7 @@
 		81663A2B208FCBBD00C1370B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81663A26208FCBBC00C1370B /* LaunchScreen.storyboard */; };
 		81663A2C208FCBBD00C1370B /* FirebaseSchema in Resources */ = {isa = PBXBuildFile; fileRef = 81663A28208FCBBC00C1370B /* FirebaseSchema */; };
 		81663A2D208FCBBD00C1370B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81663A2A208FCBBC00C1370B /* Assets.xcassets */; };
+		81663A2F20915B8F00C1370B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81663A2E20915B8E00C1370B /* GoogleService-Info.plist */; };
 		C14EB78B7C10E21635BE4A60 /* Pods_TwoSided.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5310C14152D203D9C1B4C8D3 /* Pods_TwoSided.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		81663A27208FCBBC00C1370B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81663A28208FCBBC00C1370B /* FirebaseSchema */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FirebaseSchema; sourceTree = "<group>"; };
 		81663A2A208FCBBC00C1370B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81663A2E20915B8E00C1370B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				81663A08208FCBB700C1370B /* Common */,
 				81663A24208FCBBC00C1370B /* Resources */,
 				816639F3208FCB6C00C1370B /* Info.plist */,
+				81663A2E20915B8E00C1370B /* GoogleService-Info.plist */,
 			);
 			path = TwoSided;
 			sourceTree = "<group>";
@@ -118,9 +121,9 @@
 		816639FC208FCB9900C1370B /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				81663A01208FCB9900C1370B /* AppDelegate.swift */,
 				816639FD208FCB9900C1370B /* AccountValidation */,
 				816639FF208FCB9900C1370B /* Lobby */,
-				81663A01208FCB9900C1370B /* AppDelegate.swift */,
 				81663A02208FCB9900C1370B /* Main */,
 			);
 			path = Application;
@@ -303,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81663A2B208FCBBD00C1370B /* LaunchScreen.storyboard in Resources */,
+				81663A2F20915B8F00C1370B /* GoogleService-Info.plist in Resources */,
 				81663A2D208FCBBD00C1370B /* Assets.xcassets in Resources */,
 				81663A2C208FCBBD00C1370B /* FirebaseSchema in Resources */,
 			);
@@ -515,8 +519,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4RRD8LK54L;
 				INFOPLIST_FILE = TwoSided/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = DiegoBaca.TwoSided;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Repolitory.TwoSided;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -531,8 +538,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4RRD8LK54L;
 				INFOPLIST_FILE = TwoSided/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = DiegoBaca.TwoSided;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Repolitory.TwoSided;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
