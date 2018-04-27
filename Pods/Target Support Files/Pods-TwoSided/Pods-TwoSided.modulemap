@@ -1,6 +1,0 @@
-framework module Pods_TwoSided {
-  umbrella header "Pods-TwoSided-umbrella.h"
-
-  export *
-  module * { export * }
-}

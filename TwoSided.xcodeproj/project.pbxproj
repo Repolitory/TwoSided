@@ -28,6 +28,7 @@
 		81663A2D208FCBBD00C1370B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81663A2A208FCBBC00C1370B /* Assets.xcassets */; };
 		81663A2F20915B8F00C1370B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81663A2E20915B8E00C1370B /* GoogleService-Info.plist */; };
 		81663A31209223EE00C1370B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 81663A30209223EE00C1370B /* README.md */; };
+		81663A3320929A8000C1370B /* WireFrame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81663A3220929A8000C1370B /* WireFrame.storyboard */; };
 		C14EB78B7C10E21635BE4A60 /* Pods_TwoSided.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5310C14152D203D9C1B4C8D3 /* Pods_TwoSided.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		81663A2A208FCBBC00C1370B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81663A2E20915B8E00C1370B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		81663A30209223EE00C1370B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		81663A3220929A8000C1370B /* WireFrame.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WireFrame.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				81663A26208FCBBC00C1370B /* LaunchScreen.storyboard */,
+				81663A3220929A8000C1370B /* WireFrame.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				81663A31209223EE00C1370B /* README.md in Resources */,
 				81663A2D208FCBBD00C1370B /* Assets.xcassets in Resources */,
 				81663A2C208FCBBD00C1370B /* FirebaseSchema in Resources */,
+				81663A3320929A8000C1370B /* WireFrame.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
