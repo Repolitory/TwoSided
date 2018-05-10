@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		816639FB208FCB8900C1370B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816639FA208FCB8900C1370B /* Person.swift */; };
+		816639FB208FCB8900C1370B /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816639FA208FCB8900C1370B /* AppUser.swift */; };
 		81663A04208FCB9900C1370B /* AccountValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816639FE208FCB9900C1370B /* AccountValidationViewController.swift */; };
 		81663A05208FCB9900C1370B /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81663A00208FCB9900C1370B /* LobbyViewController.swift */; };
 		81663A06208FCB9900C1370B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81663A01208FCB9900C1370B /* AppDelegate.swift */; };
@@ -29,8 +29,22 @@
 		81663A2F20915B8F00C1370B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81663A2E20915B8E00C1370B /* GoogleService-Info.plist */; };
 		81663A31209223EE00C1370B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 81663A30209223EE00C1370B /* README.md */; };
 		81663A3320929A8000C1370B /* WireFrame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81663A3220929A8000C1370B /* WireFrame.storyboard */; };
+		81BE65B020A3AA5E00E690ED /* DebateTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE65AF20A3AA5E00E690ED /* DebateTopic.swift */; };
+		81BE65B220A3AB3800E690ED /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE65B120A3AB3800E690ED /* Category.swift */; };
+		81FD11DA20A3CE710039C64A /* TwoSidedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FD11D920A3CE710039C64A /* TwoSidedTests.swift */; };
 		C14EB78B7C10E21635BE4A60 /* Pods_TwoSided.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5310C14152D203D9C1B4C8D3 /* Pods_TwoSided.framework */; };
+		C8F88A80CF373BBD211621C8 /* Pods_TwoSidedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6169AC738E6D78D3A68AAF /* Pods_TwoSidedTests.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81FD11DC20A3CE710039C64A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816639DC208FCB6600C1370B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816639E3208FCB6600C1370B;
+			remoteInfo = TwoSided;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3531CBDD6A17327F0D3F44AB /* Pods-TwoSided.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoSided.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwoSided/Pods-TwoSided.debug.xcconfig"; sourceTree = "<group>"; };
@@ -38,7 +52,7 @@
 		64ECFE0E9F9DB706B5E270D0 /* Pods-TwoSided.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoSided.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwoSided/Pods-TwoSided.release.xcconfig"; sourceTree = "<group>"; };
 		816639E4208FCB6600C1370B /* TwoSided.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoSided.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		816639F3208FCB6C00C1370B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		816639FA208FCB8900C1370B /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		816639FA208FCB8900C1370B /* AppUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
 		816639FE208FCB9900C1370B /* AccountValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountValidationViewController.swift; sourceTree = "<group>"; };
 		81663A00208FCB9900C1370B /* LobbyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
 		81663A01208FCB9900C1370B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +74,14 @@
 		81663A2E20915B8E00C1370B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		81663A30209223EE00C1370B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		81663A3220929A8000C1370B /* WireFrame.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WireFrame.storyboard; sourceTree = "<group>"; };
+		81BE65AF20A3AA5E00E690ED /* DebateTopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebateTopic.swift; sourceTree = "<group>"; };
+		81BE65B120A3AB3800E690ED /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		81FD11D720A3CE710039C64A /* TwoSidedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoSidedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81FD11D920A3CE710039C64A /* TwoSidedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSidedTests.swift; sourceTree = "<group>"; };
+		81FD11DB20A3CE710039C64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B6169AC738E6D78D3A68AAF /* Pods_TwoSidedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwoSidedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5F1A39A2B557F8C6699ABB /* Pods-TwoSidedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoSidedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwoSidedTests/Pods-TwoSidedTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B16647A630849AD50D7099F /* Pods-TwoSidedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoSidedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwoSidedTests/Pods-TwoSidedTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +93,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81FD11D420A3CE710039C64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F88A80CF373BBD211621C8 /* Pods_TwoSidedTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +109,8 @@
 			children = (
 				3531CBDD6A17327F0D3F44AB /* Pods-TwoSided.debug.xcconfig */,
 				64ECFE0E9F9DB706B5E270D0 /* Pods-TwoSided.release.xcconfig */,
+				9B16647A630849AD50D7099F /* Pods-TwoSidedTests.debug.xcconfig */,
+				8C5F1A39A2B557F8C6699ABB /* Pods-TwoSidedTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -88,6 +120,7 @@
 			children = (
 				81663A30209223EE00C1370B /* README.md */,
 				816639E6208FCB6600C1370B /* TwoSided */,
+				81FD11D820A3CE710039C64A /* TwoSidedTests */,
 				816639E5208FCB6600C1370B /* Products */,
 				2CBA447FE3BB4B1A3A737F08 /* Pods */,
 				E532CD885C82E4C50EC7594F /* Frameworks */,
@@ -98,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				816639E4208FCB6600C1370B /* TwoSided.app */,
+				81FD11D720A3CE710039C64A /* TwoSidedTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,7 +152,9 @@
 		816639F9208FCB8900C1370B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				816639FA208FCB8900C1370B /* Person.swift */,
+				816639FA208FCB8900C1370B /* AppUser.swift */,
+				81BE65AF20A3AA5E00E690ED /* DebateTopic.swift */,
+				81BE65B120A3AB3800E690ED /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -243,10 +279,20 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		81FD11D820A3CE710039C64A /* TwoSidedTests */ = {
+			isa = PBXGroup;
+			children = (
+				81FD11D920A3CE710039C64A /* TwoSidedTests.swift */,
+				81FD11DB20A3CE710039C64A /* Info.plist */,
+			);
+			path = TwoSidedTests;
+			sourceTree = "<group>";
+		};
 		E532CD885C82E4C50EC7594F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5310C14152D203D9C1B4C8D3 /* Pods_TwoSided.framework */,
+				8B6169AC738E6D78D3A68AAF /* Pods_TwoSidedTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -273,6 +319,25 @@
 			productReference = 816639E4208FCB6600C1370B /* TwoSided.app */;
 			productType = "com.apple.product-type.application";
 		};
+		81FD11D620A3CE710039C64A /* TwoSidedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81FD11DE20A3CE710039C64A /* Build configuration list for PBXNativeTarget "TwoSidedTests" */;
+			buildPhases = (
+				8B781F4A712A851B3D35F051 /* [CP] Check Pods Manifest.lock */,
+				81FD11D320A3CE710039C64A /* Sources */,
+				81FD11D420A3CE710039C64A /* Frameworks */,
+				81FD11D520A3CE710039C64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81FD11DD20A3CE710039C64A /* PBXTargetDependency */,
+			);
+			name = TwoSidedTests;
+			productName = TwoSidedTests;
+			productReference = 81FD11D720A3CE710039C64A /* TwoSidedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -285,6 +350,10 @@
 				TargetAttributes = {
 					816639E3208FCB6600C1370B = {
 						CreatedOnToolsVersion = 9.3;
+					};
+					81FD11D620A3CE710039C64A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 816639E3208FCB6600C1370B;
 					};
 				};
 			};
@@ -302,6 +371,7 @@
 			projectRoot = "";
 			targets = (
 				816639E3208FCB6600C1370B /* TwoSided */,
+				81FD11D620A3CE710039C64A /* TwoSidedTests */,
 			);
 		};
 /* End PBXProject section */
@@ -317,6 +387,13 @@
 				81663A2D208FCBBD00C1370B /* Assets.xcassets in Resources */,
 				81663A2C208FCBBD00C1370B /* FirebaseSchema in Resources */,
 				81663A3320929A8000C1370B /* WireFrame.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FD11D520A3CE710039C64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +442,24 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwoSided/Pods-TwoSided-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8B781F4A712A851B3D35F051 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwoSidedTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -377,12 +472,14 @@
 				81663A07208FCB9900C1370B /* MainViewController.swift in Sources */,
 				81663A20208FCBB700C1370B /* UserManagement+CompletionResult.swift in Sources */,
 				81663A1C208FCBB700C1370B /* UserManagement+ProfileChanges.swift in Sources */,
+				81BE65B220A3AB3800E690ED /* Category.swift in Sources */,
 				81663A21208FCBB700C1370B /* UserManagement+SignIn.swift in Sources */,
 				81663A06208FCB9900C1370B /* AppDelegate.swift in Sources */,
-				816639FB208FCB8900C1370B /* Person.swift in Sources */,
+				816639FB208FCB8900C1370B /* AppUser.swift in Sources */,
 				81663A22208FCBB700C1370B /* UIViewController+ManageChildren.swift in Sources */,
 				81663A05208FCB9900C1370B /* LobbyViewController.swift in Sources */,
 				81663A1D208FCBB700C1370B /* UserManagement.swift in Sources */,
+				81BE65B020A3AA5E00E690ED /* DebateTopic.swift in Sources */,
 				81663A23208FCBB700C1370B /* UIView+AddBorders.swift in Sources */,
 				81663A19208FCBB700C1370B /* Result.swift in Sources */,
 				81663A1F208FCBB700C1370B /* UserManagement+SignOut.swift in Sources */,
@@ -391,7 +488,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81FD11D320A3CE710039C64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FD11DA20A3CE710039C64A /* TwoSidedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81FD11DD20A3CE710039C64A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816639E3208FCB6600C1370B /* TwoSided */;
+			targetProxy = 81FD11DC20A3CE710039C64A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		81663A26208FCBBC00C1370B /* LaunchScreen.storyboard */ = {
@@ -527,10 +640,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4RRD8LK54L;
 				INFOPLIST_FILE = TwoSided/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Repolitory.TwoSided;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -546,14 +656,45 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4RRD8LK54L;
 				INFOPLIST_FILE = TwoSided/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Repolitory.TwoSided;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81FD11DF20A3CE710039C64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B16647A630849AD50D7099F /* Pods-TwoSidedTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSNU4DN7MY;
+				INFOPLIST_FILE = TwoSidedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = basedOnTy.TwoSidedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoSided.app/TwoSided";
+			};
+			name = Debug;
+		};
+		81FD11E020A3CE710039C64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5F1A39A2B557F8C6699ABB /* Pods-TwoSidedTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSNU4DN7MY;
+				INFOPLIST_FILE = TwoSidedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = basedOnTy.TwoSidedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoSided.app/TwoSided";
 			};
 			name = Release;
 		};
@@ -574,6 +715,15 @@
 			buildConfigurations = (
 				816639F7208FCB6C00C1370B /* Debug */,
 				816639F8208FCB6C00C1370B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81FD11DE20A3CE710039C64A /* Build configuration list for PBXNativeTarget "TwoSidedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FD11DF20A3CE710039C64A /* Debug */,
+				81FD11E020A3CE710039C64A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
