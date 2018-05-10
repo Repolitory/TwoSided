@@ -76,8 +76,5 @@ extension UserManagement {
                 completion(.failure(error: .unknownError))
             }
         }
-        
-        
     }
-    
 }
