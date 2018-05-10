@@ -1,6 +1,5 @@
-########Persons########
-
-|- persons
+########AppUser########
+|- appUsers
     |- (randomID)
         |- displayName: String
         |- debateRooms
@@ -8,7 +7,18 @@
         |- profileImageID: String
 
 |- displayNames
-    |-(person's ID)
+    |-(appUser's ID)
+
+########Debate Topics########
+|- debateTopics
+    |- (randomID)
+        |- question: String
+        |- creator: (appUser's ID)
+        |- category: String
+
+|- debateCategories
+    |- (category name)
+        |- (debateTopic ID): Bool (disposible bool for now)
 
 ########Debate Rooms########
 |- debateRooms

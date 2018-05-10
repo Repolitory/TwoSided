@@ -18,7 +18,12 @@ struct AppUser {
     let id: String
     let displayName: String
     
-    func createTopic(create: DebateTopic, completion: @escaping (Result<DebateTopic, AppUserError>) -> Void) {
+    static let testUser = AppUser(id: "testID", displayName: "testDisplayName")
+    
+    func createTopic(withQuestion question: String,
+                     andCategory category: Category,
+                     completion: @escaping (Result<DebateTopic, AppUserError>) -> Void = {_ in },
+                     test: Bool = false) {
         
         
     }
