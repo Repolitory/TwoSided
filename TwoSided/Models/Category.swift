@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum Category {
+enum Category: String {
     case fun
     case social
     case gaming
