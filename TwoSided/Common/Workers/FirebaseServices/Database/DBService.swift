@@ -12,13 +12,13 @@ import FirebaseDatabase
 class DBService: NSObject {
     private override init() {
         ref = Database.database().reference()
-        gameroomsRef = ref.child("gamerooms")
-        gametablesRef = ref.child("gametables")
+        topicsRef = ref.child("topics")
+        categoriesRef = ref.child("categories")
         super.init()
     }
     static let manager: DBService = .init()
     
     var ref: DatabaseReference!
-    var gameroomsRef: DatabaseReference!
-    var gametablesRef: DatabaseReference!
+    var topicsRef: DatabaseReference!
+    var categoriesRef: DatabaseReference!
 }
